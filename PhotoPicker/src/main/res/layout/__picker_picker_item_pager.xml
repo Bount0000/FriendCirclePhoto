@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView -->
+    <!--android:orientation="vertical"-->
+    <!--android:gravity="center"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:fillViewport="true"-->
+    <!--&gt;-->
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#000"
+    android:layout_height="match_parent">
+  <me.iwf.photopicker.widget.TouchImageView
+      android:gravity="center"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:src="@drawable/__picker_ic_photo_black_48dp"
+      android:id="@+id/iv_pager"
+      />
+
+  <LinearLayout
+      android:id="@+id/ll_com"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_gravity="bottom"
+      android:paddingRight="16dp"
+      android:paddingLeft="16dp"
+      android:paddingBottom="20dp"
+      android:paddingTop="20dp"
+      android:background="#4D000000"
+      android:visibility="gone"
+      >
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        />
+
+    <TextView
+        android:id="@+id/tv_com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="5dp"
+        android:textColor="#fff"
+        android:layout_marginTop="13dp"
+        />
+  </LinearLayout>
+
+</FrameLayout>
+
+
+
+<!--</ScrollView>-->
